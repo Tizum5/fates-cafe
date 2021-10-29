@@ -11,41 +11,92 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/mainpg1.css"/>
+    <link rel="stylesheet" href="css/mainpg2.css"/>
     
     <title>FatE`s CafE</title>
 </head>
-<header>
-
-</header>
-<nav class="navbar navbar-expand-sm navbar-dark sticky-top bg-dark  justify-content-between">
-    <a class="navbar-brand mr-3" href='#'><img src="photos/FAtES-Cafe-2.png" height="85" width="125" class="col-md-3" /></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fatesNavbar"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="fatesNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i><img src="photos/352427_home_icon.png" height="25px" width="25px" alt="Home"><span class="sr-only"></a></li>
-            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"</i><img src="photos/3558101_cook_dish_food_menu_rice_icon.png" height="25px" width="25px" alt="Menu"></a></li>
-            <li class="nav-item"><a class="nav-link" href="h&l.html"><i class="fa fa-list fa-lg" </i><img src="photos/352521_location_on_icon.png" height="25px" width="25px" alt="Location & Hours"></a></li>
-            <li class="nav-item"><a class="nav-link" href="deliveryInfo.html"><i class="fa fa-address-card fa-lg"</i><img src="photos/3558109_delivery_dogs_food_hot_street_icon.png" height="25px" width="25px" alt="delivery info"></a></li>
-        </ul>
-    </div>    
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>   
-    </form>    
-</nav>
 <body>
-    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="5UBaDbPy"></script>
-    <table> <!--dellivery  options/links-->
-
-    </table>
-    <article>
-        <iframe>
-
-        </iframe>
-        <div class="fb-comments" data-href="https://www.uber.com/" data-width="500px" data-numposts="30000"></div>
-    </article>
-</body>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top bg-dark  justify-content-between">
+        <a class="navbar-brand mr-3" href='#'><img src="photos/FAtES-Cafe-2.png" height="85" width="125" class="col-md-3" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fatesNavbar"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="fatesNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i><img src="photos/352427_home_icon.png" height="25px" width="25px" alt="Home"><span class="sr-only"></a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html"><i class="fa fa-home fa-lg"></i><img src="photos/3558101_cook_dish_food_menu_rice_icon.png" height="25px" width="25px" alt="Menu"></a></li>
+                <li class="nav-item"><a class="nav-link" href="h&l.html"><i class="fa fa-list fa-lg"></i><img src="photos/352521_location_on_icon.png" height="25px" width="25px" alt="Location & Hours"></a></li>
+                <li class="nav-item"><a class="nav-link" href="deliveryInfo.html"><i class="fa fa-address-card fa-lg"></i><img src="photos/3558109_delivery_dogs_food_hot_street_icon.png" height="25px" width="25px" alt="delivery info"></a></li>
+            </ul>
+        </div> 
+           
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>   
+        </form> 
+           
+    </nav>
+    <header>
+        <div class="audio-container">
+            <audio controls autoplay loop>
+                <source src="song.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </header>
+        <table> <!--dellivery  options/links-->
+            <a class="btn btn-social-icon btn-uber" href="https://www.uber.com/"><img src="photos/1181193_uber_icon.png" height="50px" width="50px" alt="Uber"><i class="fa fa-uber"></i></a>
+            <a class="btn btn-social-icon btn-doordash" href="https://www.doordash.com"/><img src="photos/DoordashLogo.png" height="50px" width="50px" alt="Door Dash"><i class="fa fa-doordash"></i></a>
+            <a class="btn btn social-icon btn-grubhub" href="https://www.grubhub.com/"><img src="photos/Transparent-GrubHub-Logo.png" height="50px" width="50px" alt="Grub Hub"><i class="fa fa-grubhub"></i></a>
+            <a class="btn btn-social-icon btn-yelp" href="https://www.yelp.com/"><img src="photos/4102600_applications_media_social_yelp_icon-1.png" height="50px" width="50px" alt="Yelp logo"><i class="fa fa-yelp"></i></a>
+        </table>
+        <iframe id="player" type="text/html" width="420" height="315"
+        src="https://www.youtube.com/embed/x5quhVqGeKw" title="Awesome Food Compilation | Tasty Food Videos! #7"
+        frameborder="0"
+        style="border:  solid 4px  #37474F"
+        ></iframe> 
+        </video>
+        <article> <!--foodBlog-->
+            <form>
+                <textarea id="fate" name="fate" rows="4" cols="50">
+                    Our delivery-blog...
+                </textarea>
+                <button name="fate" value="POST">Post </button>
+            </form>    
+        </article>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><img src="photos/352427_home_icon.png" height="15px" width="15px">Home</a></li>
+                            <li><a href="menu.html"><img src="photos/3558101_cook_dish_food_menu_rice_icon.png" height="15px" width="15px" alt="Menu">About</a></li>
+                            <li><a href="h&l.html"><img src="photos/352521_location_on_icon.png" height="15px" width="15px" alt="Location & Hours">Sites</a></li>
+                            <li><a href="deliveryinfo.html"><img src="photos/3558109_delivery_dogs_food_hot_street_icon.png" height="15px" width=15px" alt="delivery info">Contact</a></li>
+                        </ul>
+                </div>
+                <div class="col-6 col-sm-5">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-uber" href="https://www.uber.com/"><img src="photos/1181193_uber_icon.png" height="15px" width="15px" alt="Uber"><i class="fa fa-uber"></i></a>
+                    <a class="btn btn-social-icon btn-doordash" href="https://www.doordash.com"/><img src="photos/DoordashLogo.png" height="25px" width="35px" alt="Door Dash"><i class="fa fa-doordash"></i></a>
+                    <a class="btn btn social-icon btn-grubhub" href="https://www.grubhub.com/"><img src="photos/Transparent-GrubHub-Logo.png" height="15px" width="35px" alt="Grub Hub"><i class="fa fa-grubhub"></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/"><img src="photos/5296765_camera_instagram_instagram_logo_icon.png" height="15px" width="15px" alt="Instagram"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/"><img src="photos/5365678_fb_facebook_facebook logo_icon.png" height="15" width="15px" alt="Facebook logo"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://www.twitter.com/" ><img src="photos/287628_twitter_icon.png" height="15px" width="15px" alt="Twitter logo"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-yelp" href="https://www.yelp.com/"><img src="photos/4102600_applications_media_social_yelp_icon-1.png" height="15px" width="15px" alt="Yelp logo"><i class="fa fa-yelp"></i></a>
+                </div>
+                <div class="col-sm-4">
+                <a role="button" class="btn btn-link" href="tel:+1-727-555-9301"><i class="fa fa-phone"></i>1-727-555-9301<img src="photos/134149_phone_call_telephone_icon.png" height="15px" width="15px" alt="phone number"></a><br />
+                    <a role="button" class="btn btn-link" href="mailto:FAtEsCafe@gmail.com"><i class="fa fa-envelope-o"></i>Email: FAtEsCafe@gmail.com<img src="photos/211604_email_icon.png" height="15px" width="15px" alt="Email"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!--js-->                    
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/mainpg1.js"></script>
+        <script scr="js/auto.js"></script>
+</body>    
 </html>

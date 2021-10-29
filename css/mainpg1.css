@@ -62,7 +62,7 @@ html{
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
@@ -92,10 +92,21 @@ html{
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  padding: 20px;
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+
+#map {
+  position:center;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
